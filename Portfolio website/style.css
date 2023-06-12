@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Bagel+Fat+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.sidebar{
+    background-color:rgb(206, 214, 208);
+    width:18vw;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    height: 153.4vh;
+}
+.sidebar nav{
+    padding: 25px;
+
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 25px;
+    padding: 33px 0;
+}
+.sidebar nav li a{
+    text-decoration: solid;
+    color: black;
+}
+.main{
+   /* background-color: bisque;*/
+    width:90vw;
+}
+.container{
+    display: flex;
+}
+.Infocontainer{
+    /*background-color: pink;*/
+    height: 78vh;
+    width: 80vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content:space-around;
+}
+.devInfo{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.hello{
+    font-size: 30px;
+}
+.name{
+    font-size: 50px;
+    font-weight: bolder;
+    font-style: inherit;
+    font-family: cursive;
+}
+.about{
+    font-size: 30px;
+}
+.Game{
+    font-size: 30px;
+}
+.buttons{
+    margin-top: 40px;
+}
+.buttons button{
+    padding: 9px 14px;
+    border-radius: 25px;
+    color:rgb(97, 97, 139);
+    background-color:#ecba88;
+    font-weight: bold;
+    font-size: 23px;
+    margin:0 3px;
+    cursor: pointer;
+}
+.buttons button:hover{
+    background-color:rgb(97, 97, 139);
+    color: #ecba88;
+}
+.devimg img{
+    width: 384px;
+    border-radius: 60px;
+ }
+ .Photo img{
+    border-radius: 100vh;
+    width: 400px;
+    margin-left: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 00px;
+    padding: 30px;
+ }
+ .Photo p{
+    text-align: center;
+    text-decoration: dashed;
+    font-size: 30px;
+    font-style: oblique;
+    font-weight: bold;
+ }
+ .Photo p big{
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+ }
+ .Photo1  img{
+    width: 280px;
+    margin-left: 152px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 90px;
+ }
+ .id{
+    background-color: aquamarine;
+ }
+ h1{
+    margin-top: 00px;
+    margin-bottom: 42px;
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: oblique;
+ }
+ table,th,td{
+    width: 800px;
+    margin-left: 152px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-right: 152px;
+    font-size:17px;
+    padding: 10px;
+    text-align: center;
+    border: 2px solid #000;
+    border-collapse: collapse;
+    table-layout: inherit;
+}
+.Photo2  img{
+    width: 200px;
+    margin-left: 160px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 190px;
+ }
+ .parichay{
+    background-color: pink;
+ }
+  footer{
+    background-color: #e49797;
+    font-size: 30px;
+    margin-left: 00px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 00px;
+ }
+ .ContactForm form{
+    text-align:center;
+    font-size: 30px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
+ .data{
+    background-color: beige;
+ }
